@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-container{
+.container{
     width: 80%;
     height: 1000px;
     display: flex;
@@ -127,13 +127,8 @@ aside{
         margin-right: 2px;
     }
 }
-@media screen and (max-width: 425px){
-    
-    .block{
-        min-width:  100px;
-    }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 .conteiner{
     flex-direction: column;
 }
@@ -212,7 +207,7 @@ main{
     flex-direction: column;
     flex-wrap: nowrap;
     height: auto;
-    min-width: 335px;
+    min-width: 325px;
     align-items: stretch;
     align-content:stretch;
     }
