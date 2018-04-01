@@ -121,6 +121,18 @@ aside{
     width: 27%;
 }
 }
+@media screen and (max-width: 768px) {
+    .main_block{
+        width: 30%;
+        margin-right: 2px;
+    }
+}
+@media screen and (max-width: 425px){
+    
+    .block{
+        min-width:  100px;
+    }
+
 @media screen and (max-width: 375px) {
 .conteiner{
     flex-direction: column;
@@ -234,5 +246,5 @@ main{
     width: 234px;
     height: 40px;
     margin: 3px;
-}    
+} 
 }
