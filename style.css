@@ -35,8 +35,7 @@ main{
     max-width: 1240px;
     display: flex;
     justify-content:center;
-    padding: 0 100px;
-    
+    margin: 0 auto;
 }
 
 aside{
@@ -70,7 +69,6 @@ aside{
     height: 290px;
 
 }
-
 
 .block{
     background: #cecece;
