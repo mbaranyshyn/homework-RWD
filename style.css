@@ -9,20 +9,20 @@ header{
 	justify-content: space-around;
 }
 .header{
-   width: 65%;
+   width: 73%;
    display: flex;
    justify-content: space-between;
 }
 .left_header{
     background: #009bdd;
-    width: 400px;
+    width: 33%;
     height: 90px;
     margin: 50px 0;
     
 }
 .right_header{
     background: #36c3ff;
-    width: 400px;
+    width: 33%;
     height: 90px;
     margin: 50px 0;
    
@@ -99,7 +99,7 @@ footer{
 .footer_block{
     background: #02b152;
     width: 15%;
-    margin: 26px 20px;
+    margin: 26px 30px;
 }
 .info{
     background: #038042;
